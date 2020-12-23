@@ -133,4 +133,4 @@ function play(guild, song) {
   dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
 }
-client.login('NzgzMzc5NTgzNjg4NjM4NDk1.X8Z5Fw.pTF9YTIVx20944Monxzl1tcSYQw')
+client.login('process.env.TOKEN')
